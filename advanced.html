@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Google Search</title>
+    <title>Google Advanced Search</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link
       rel="stylesheet"
@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="nav-links">
-      <a href="index.html">Google Advanced Search</a>
+      <a href="index.html">Google Search</a>
     </div>
     <div class="container">
       <div class="google-logo">
@@ -30,6 +30,54 @@
             <i class="fa fa-microphone microphone-icon"></i>
             <i class="fa fa-camera photo-icon"></i>
           </div>
+          <div class="advanced-fields">
+            <div class="field">
+              <label for="all-words">Find pages with… "all these words:"</label>
+              <input
+                type="text"
+                name="as_q"
+                id="all-words"
+                class="search-input"
+                value="all"
+              />
+            </div>
+            <div class="field">
+              <label for="exact-phrase"
+                >Find pages with… "this exact word or phrase:"</label
+              >
+              <input
+                type="text"
+                name="as_epq"
+                id="exact-phrase"
+                class="search-input"
+                value="exact"
+              />
+            </div>
+            <div class="field">
+              <label for="any-words"
+                >Find pages with… "any of these words:"</label
+              >
+              <input
+                type="text"
+                name="as_oq"
+                id="any-words"
+                class="search-input"
+                value="any"
+              />
+            </div>
+            <div class="field">
+              <label for="none-words"
+                >Find pages with… "none of these words:"</label
+              >
+              <input
+                type="text"
+                name="as_eq"
+                id="none-words"
+                class="search-input"
+                value="none"
+              />
+            </div>
+          </div>
           <div class="buttons">
             <input type="submit" value="Google Search" class="search-button" />
             <input
@@ -43,3 +91,4 @@
     </div>
   </body>
 </html>
+g
