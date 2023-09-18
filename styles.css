@@ -5,33 +5,38 @@
   box-sizing: border-box;
 }
 
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
+}
+
+.nav-links {
+  text-align: right;
+  padding: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #4285f4;
+  margin-left: 10px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
+  
 }
 
-
-input[type="submit"] {
-  background-color: #4285f4;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+.google-logo {
+  text-align: center;
 }
-
-
-input[type="submit"]:hover {
-  background-color: #357ae8;
-}
-
 .search-bar {
   display: flex;
   flex-direction: column;
@@ -55,7 +60,6 @@ input[type="submit"]:hover {
 .search-icon {
   color: #80868b;
 }
-
 .search-input {
   flex: 1;
   border: none;
@@ -63,6 +67,7 @@ input[type="submit"]:hover {
   padding: 8px;
   font-size: 16px;
 }
+
 .microphone-icon, .photo-icon {
   color: #80868b;
   margin-left: 8px;
@@ -77,10 +82,11 @@ input[type="submit"]:hover {
 .search-button {
   background-color: #4285f4;
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 16px;
   border: none;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
+  border-radius: 4px;
   transition: background-color 0.3s;
 }
 
@@ -89,17 +95,17 @@ input[type="submit"]:hover {
 }
 
 .lucky-button {
-  background-color: #fbbc05;
-  color: #000;
-  padding: 10px 20px;
+  background-color: #357ae8;
+  color: #fff;
+  padding: 10px 16px;
   border: none;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 4px;
   transition: background-color 0.3s;
 }
-
 .lucky-button:hover {
-  background-color: #fabd05;
+  background-color: #357ae8;
 }
 
 .fa {
