@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-        <a href="images.html">go to images search</a>
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Google Search</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  </head>
+  <body>
+    <div class="google-logo">
+      <img src="logo.png" alt="Google Logo">
+    </div>
+    <form action="https://www.google.com/search">
+      <div class="search-bar">
+        <div class="input-container">
+          <i class="fa fa-search search-icon"></i>
+          <input type="text" name="q" class="search-input" placeholder="Search Google">
+          <i class="fa fa-microphone microphone-icon"></i>
+          <i class="fa fa-camera photo-icon"></i>
+        </div>
+        <div class="buttons">
+          <input type="submit" value="Google Search" class="search-button">
+          <input type="submit" value="I'm Feeling Lucky" class="lucky-button">
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
