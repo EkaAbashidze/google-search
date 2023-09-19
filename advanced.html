@@ -4,91 +4,65 @@
     <meta charset="UTF-8" />
     <title>Google Advanced Search</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
   </head>
-  <body>
+  <body class="google-advanced-search">
     <div class="nav-links">
       <a href="index.html">Google Search</a>
     </div>
     <div class="container">
-      <div class="google-logo">
+      <div class="google-logo-advanced">
         <img src="logo.png" alt="Google Logo" />
       </div>
       <form action="https://www.google.com/search" id="search-form">
-        <div class="search-bar">
-          <div class="input-container">
-            <i class="fa fa-search search-icon" id="search-icon"></i>
-            <input
-              type="text"
-              name="q"
-              class="search-input"
-              placeholder="Search Google"
-            />
-            <i class="fa fa-microphone microphone-icon"></i>
-            <i class="fa fa-camera photo-icon"></i>
-          </div>
-          <div class="advanced-fields">
-            <div class="field">
-              <label for="all-words">Find pages with… "all these words:"</label>
-              <input
-                type="text"
-                name="as_q"
-                id="all-words"
-                class="search-input"
-                value="all"
-              />
-            </div>
-            <div class="field">
-              <label for="exact-phrase"
-                >Find pages with… "this exact word or phrase:"</label
-              >
-              <input
-                type="text"
-                name="as_epq"
-                id="exact-phrase"
-                class="search-input"
-                value="exact"
-              />
-            </div>
-            <div class="field">
-              <label for="any-words"
-                >Find pages with… "any of these words:"</label
-              >
-              <input
-                type="text"
-                name="as_oq"
-                id="any-words"
-                class="search-input"
-                value="any"
-              />
-            </div>
-            <div class="field">
-              <label for="none-words"
-                >Find pages with… "none of these words:"</label
-              >
-              <input
-                type="text"
-                name="as_eq"
-                id="none-words"
-                class="search-input"
-                value="none"
-              />
-            </div>
-          </div>
-          <div class="buttons">
-            <input type="submit" value="Google Search" class="search-button" />
-            <input
-              type="submit"
-              value="I'm Feeling Lucky"
-              class="lucky-button"
-            />
-          </div>
+        <div class="field">
+          <label for="all-words">Find pages with… "all these words:"</label>
+          <input
+            type="text"
+            name="as_q"
+            id="all-words"
+            class="search-input"
+            value="all"
+          />
+        </div>
+        <div class="field">
+          <label for="exact-phrase"
+            >Find pages with… "this exact word or phrase:"</label
+          >
+          <input
+            type="text"
+            name="as_epq"
+            id="exact-phrase"
+            class="search-input"
+            value="exact"
+          />
+        </div>
+        <div class="field">
+          <label for="any-words">Find pages with… "any of these words:"</label>
+          <input
+            type="text"
+            name="as_oq"
+            id="any-words"
+            class="search-input"
+            value="any"
+          />
+        </div>
+        <div class="field">
+          <label for="none-words"
+            >Find pages with… "none of these words:"</label
+          >
+          <input
+            type="text"
+            name="as_eq"
+            id="none-words"
+            class="search-input"
+            value="none"
+          />
+        </div>
+        <div class="buttons">
+          <input type="submit" value="Google Search" class="search-button" />
+          <input type="submit" value="I'm Feeling Lucky" class="lucky-button" />
         </div>
       </form>
     </div>
   </body>
 </html>
-g
